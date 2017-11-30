@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 #import <SDWebImage/SDWebImage.h>
+#import <CarthageDemo/Person.h>
 
 @interface ViewController ()
 
@@ -21,6 +22,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     UIImageView *imageView = [[UIImageView alloc] init];
     [imageView sd_setImageWithURL:nil];
+    Person *son = [[Person alloc] init];
+    [son play];
 }
 
 
